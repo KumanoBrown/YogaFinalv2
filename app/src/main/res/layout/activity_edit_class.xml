@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/editDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Select Date" />
+
+    <TextView
+        android:id="@+id/editDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editTeacherEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Teacher"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editCommentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Comment"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/updateClassButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Class" />
+
+</LinearLayout>

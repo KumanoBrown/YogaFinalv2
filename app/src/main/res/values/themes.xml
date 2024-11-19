@@ -6,4 +6,20 @@
     </style>
 
     <style name="Theme.YogaFinalV2" parent="Base.Theme.YogaFinalV2" />
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <!-- Updated SearchView style -->
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="android:editTextColor">@color/colorPrimary</item>
+    </style>
 </resources>

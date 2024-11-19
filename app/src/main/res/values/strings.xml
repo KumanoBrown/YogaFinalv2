@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Yoga Final v2</string>
+    <string name="add_course">Add Course</string>
+    <string name="search_hint">Search for classes...</string>
+    <string name="add_class">Add class</string>
+    <string-array name="days_of_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string name="sync">Sync</string>
+
+
 </resources>

@@ -1,41 +1,80 @@
 package com.example.yogafinalv2;
 
+import com.google.firebase.database.PropertyName;
+
 public class Course {
-    private int id;
-    private String name;
+    @PropertyName("courseId")
+    public long Id;
+    public int capacity;
+    public int duration;
+    public String description;
+    public String typeofClass;
+    public String dayOfWeek;
+    public String timeofCourse;
+    public double price;
 
-    // Default constructor
-    public Course() {
+    // Public getters and setters
+    public long getId() {
+        return Id;
     }
 
-    // Constructor with parameters
-    public Course(int id, String name) {
-        this.id = id;
-        this.name = name;
+    public void setId(long id) {
+        this.Id = id;
     }
 
-    // Getters and setters
-    public int getId() {
-        return id;
+    public int getCapacity() {
+        return capacity;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
     }
 
-    public String getName() {
-        return name;
+    public int getDuration() {
+        return duration;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setDuration(int duration) {
+        this.duration = duration;
     }
 
-    @Override
-    public String toString() {
-        return "Course{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getTypeofClass() {
+        return typeofClass;
+    }
+
+    public void setTypeofClass(String typeofClass) {
+        this.typeofClass = typeofClass;
+    }
+
+    public String getDayOfWeek() {
+        return dayOfWeek;
+    }
+
+    public void setDayOfWeek(String dayOfWeek) {
+        this.dayOfWeek = dayOfWeek;
+    }
+
+    public String getTimeofCourse() {
+        return timeofCourse;
+    }
+
+    public void setTimeofCourse(String timeofCourse) {
+        this.timeofCourse = timeofCourse;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }
