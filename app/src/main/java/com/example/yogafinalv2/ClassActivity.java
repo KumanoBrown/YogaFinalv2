@@ -167,6 +167,7 @@ public class ClassActivity extends AppCompatActivity {
         Intent intent = new Intent(ClassActivity.this, EditClassActivity.class);
         intent.putExtra("classId", classItem.id);
         intent.putExtra("courseId", courseId);
+        intent.putExtra("courseDayOfWeek", courseDayOfWeek);
         startActivity(intent);
     }
 
